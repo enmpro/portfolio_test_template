@@ -1,0 +1,131 @@
+/* Margins go from top right bottom left*/
+
+.programming {
+    background-image: url("images/background2.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    padding-top: 13em;
+
+    transition: 0.5s ease;
+}
+
+.programming p {
+    
+    position: relative;
+    
+    white-space: break-word;
+    left: 10%;
+        
+    bottom: 20%;
+        
+    font-size: 46px;
+        
+    width: 500px; 
+        
+    transition: 0.5s ease;
+}
+
+.image-class img {
+    float: right;
+    transition: 0.5s ease;
+}
+
+
+
+#java {
+ 
+    position: relative;
+    right: 10%;
+    top: 0;
+    width: 200px;
+    
+
+}
+
+#c-plus-plus {
+    position: relative;
+    right: 5%;
+    top: 0;
+    width: 180px;
+    
+}
+
+#python {
+    position: relative;
+    right: 0%;
+    top: 0;
+    width: 230px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    text-align: center;
+    font-size: 35px;
+
+    box-shadow: 0 0 10px black;
+    
+    background-color: gainsboro;
+    width: 100%;
+    height: 50px;
+
+    transition: 0.5s ease;
+}
+
+.icon-bar a {
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 1350px) {
+    
+    .programming {
+        height: 500px;
+    }
+
+    .programming p {
+        word-wrap: nowrap;
+
+        left: 20%;
+        bottom: 3em;
+        font-size: 35px;
+        width: 500px;
+        
+    }
+
+    #java {
+ 
+        position: relative;
+        right: 40%;
+        top: 10em;
+        width: 150px;
+        
+    
+    }
+    
+    #c-plus-plus {
+        position: relative;
+        right: 24%;
+        top: 10em;
+        width: 130px;
+        
+    }
+    
+    #python {
+        position: relative;
+        right: 2%;
+        top: 10em;
+        width: 180px;
+    }
+    
+    .footer {
+        font-size: 50px;
+        height: 10%;
+        
+    }
+    
+    
+}
